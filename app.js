@@ -6,7 +6,7 @@
 		store.products = [];
 
 		$http.get('/products.json').success(function(data){
-			'$scope'.products = data;
+			$scope.products = data;
 		});
 	}]);
 
