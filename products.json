@@ -1,14 +1,23 @@
-	{
-		"name": "Hectagonal Rubi",
-		"price": "2.95",
-		"description": "This is a very precious gem",
-		"canPurchase": "false",
-		"image": "1.png",
-		"reviews": [
-			{"stars": "5", "body": "I love this product!", "author": "joe@doe.com"},
-			{"stars": "1", "body": "This product sucks!", "author": "tim@hater.com"}	
-		]
-	}
+[{
+	"name": "Hectagonal Rubi",
+	"price": "2.95",
+	"description": "This is a very precious gem",
+	"canPurchase": "false",
+	"image": "1.png",
+	"reviews": [
+		{"stars": "5", "body": "I love this product!", "author": "joe@doe.com"},
+		{"stars": "1", "body": "This product sucks!", "author": "tim@hater.com"}	
+	]
+},
+{
+	"name": "Emerald Drop",
+	"price": "3",
+	"description": "This is a rare to find gem",
+	"canPurchase": "true",
+	"image": "2.png",
+	"reviews": {"stars": "5", "body": "I love this product!", "author": "joe@doe.com"},
+}]
+
 
 
 /*
