@@ -1,13 +1,12 @@
 (function() {
 	var app = angular.module('store',['store-products']);
 
-	app.controller('StoreController', ['http', function($http){
+	app.controller('StoreController', ['$http', function($http){
 		var store = this;   /* to recover data from the http request */
 		store.products =[];
 
 		$http.get('products.json').success(function(data){
 			store.products = data;
-
 		});
 	}]);
 
