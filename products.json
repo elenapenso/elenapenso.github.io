@@ -1,4 +1,4 @@
-"products":[
+{"data":[
 	{
 		"name": "Hectagonal Rubi",
 		"price": "2.95",
@@ -10,7 +10,7 @@
 			{"stars": "1", "body": "This product sucks!", "author": "tim@hater.com"}	
 		],
 	}
-]
+]}
 
 /*
 {
