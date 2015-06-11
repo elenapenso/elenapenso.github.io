@@ -114,7 +114,7 @@
 					return this.tab === checkTab;
 				};
 			},
-			controllerAs: 'panels',
+			controllerAs: 'panels'
 		};
 	});
 
