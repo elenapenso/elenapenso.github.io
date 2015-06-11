@@ -2,8 +2,8 @@
 	var app = angular.module('store',['store-products']);
 
 	app.controller('StoreController', ['$scope','$http', function($scope, $http){
-	//	var store = this;   /* to recover data from the http request */
-	//	store.products = [];
+		var store = this;   /* to recover data from the http request */
+		store.products = [];
 
 		$http.get('/products.json').success(function(data){
 			'$scope'.products = data;
