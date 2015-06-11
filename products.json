@@ -15,7 +15,7 @@
 	"description": "This is a rare to find gem",
 	"canPurchase": "true",
 	"image": "2.png",
-	"reviews": {"stars": "5", "body": "I love this product!", "author": "joe@doe.com"},
+	"reviews": {"stars": "5", "body": "I love this product!", "author": "joe@doe.com"}
 }]
 
 
