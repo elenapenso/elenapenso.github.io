@@ -1,7 +1,7 @@
 (function() {
 	var app = angular.module('store',['store-products']);
 
-	app.controller('StoreController', ['$scope', '$http', function($scope, $http){
+	app.controller('StoreController', ['$http', function($scope, $http){
 	//	var store = this;   /* to recover data from the http request */
 		$scope.products = [];
 
