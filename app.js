@@ -5,7 +5,7 @@
 	//	var store = this;   /* to recover data from the http request */
 		$scope.products = [];
 
-		$http.get('products.json').success(function(data){
+		$http.get('/products.json').success(function(data){
 			$scope.products = data;
 		});
 	});
