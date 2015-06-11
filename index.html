@@ -19,7 +19,7 @@
 				<product-title></product-title> 
 				<img ng-src="images/{{product.image}}"/>
 				<button ng-show="product.canPurchase"> Add to Cart </button>
-				<section ng-controller="PanelController as panel">
+				<product-panels>
 					<ul class="nav nav-pills">
 						<li ng-class="{active:panel.isSelected(1)}"> 
 							<a href ng-click="panel.selectTab(1)">Description </a> 
@@ -68,7 +68,7 @@
 							<input type="submit" value="Submit"/>	
 						</form>	
 					</div>
-				</section>	
+				</product-panels>	
 			</li>		
 		</ul>
 		
